@@ -1,0 +1,1 @@
+import {Shell} from "@/components/shell";import {Laboratory} from "@/components/laboratory";export default function LaboratoryPage(){return <Shell><Laboratory/></Shell>}
