@@ -1,6 +1,6 @@
 # Investing Academy
 
-Plataforma independiente de educación financiera sobre diversificación estructural, asignación de activos y gestión cuantitativa. Interfaz responsive en español, **22 módulos / 66 lecciones**, ejercicios con respuesta y un laboratorio interactivo.
+Plataforma independiente de educación financiera sobre diversificación estructural, asignación de activos y gestión cuantitativa. Interfaz responsive en español, **22 módulos / 66 lecciones**, ejercicios con respuesta, 22 casos prácticos por módulo, seguimiento global del progreso y un laboratorio interactivo.
 
 **Proyecto educativo original.** No tiene afiliación con Value School ni reproduce sus materiales privados. No constituye asesoramiento financiero.
 
@@ -35,6 +35,7 @@ npm run build
 - /modulos/1/1 — primera lección con evaluación
 - /laboratorio — cartera ficticia de cuatro activos
 - src/lib/curriculum.ts — plan de estudios, conceptos y ejemplos
+- src/lib/practice.ts — escenarios aplicados originales y guías de autoevaluación
 - src/lib/finance.ts — cálculos financieros ilustrativos
 
 El progreso de lecciones se guarda localmente en cada navegador mediante localStorage. No existe backend, cuenta de usuario ni recopilación de datos personales.
